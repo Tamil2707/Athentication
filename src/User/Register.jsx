@@ -6,7 +6,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 
 function Register() {
-
+    
     const navicate=useNavigate()
     const [focus, setFocus] = useState({
         Name: false,
