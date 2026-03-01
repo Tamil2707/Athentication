@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import "./User.css"
-import axios from 'axios'
+import axios from "axios";
 import { useNavigate } from 'react-router-dom'
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 
 function Register() {
-    
+
     const navicate=useNavigate()
     const [focus, setFocus] = useState({
         Name: false,
